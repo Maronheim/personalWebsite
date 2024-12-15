@@ -4,7 +4,7 @@ export default {
     './src/**/*.{html,js,svelte,ts}', // Existing files
     './src/lib/**/*.{html,js,svelte,ts}', // Library folder explicitly
   ],
-    theme: {
+  theme: {
     extend: {},
   },
   plugins: [
@@ -12,5 +12,7 @@ export default {
   ],
   daisyui: {
     themes: ['dracula', 'acid'], // Configure themes
+    // Set the default theme to 'dracula'
+    theme: 'dracula',
   },
 }
