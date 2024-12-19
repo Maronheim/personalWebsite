@@ -1,3 +1,12 @@
+A coding project to build my personal website!
+
+Tech Stack:
+Frontend:
+    Svelte
+    Tailwind | DaisyUI
+    Vite
+
+
 # Svelte + Vite
 
 This template should help get you started developing with Svelte in Vite.

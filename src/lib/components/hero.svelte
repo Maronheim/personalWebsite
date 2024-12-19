@@ -12,11 +12,24 @@
 
 <div
   class="hero min-h-screen relative"
-  style="background-image: url('/images/hero.JPG'); background-size: cover; background-position: center;">
+  style="background-image: url('/images/hero.JPG'); background-size: cover; background-position: center; background-attachment: fixed;">
   
   <!-- Glassmorphism Overlay -->
   <div
     class={`glass-overlay absolute top-0 left-0 w-full h-full bg-white bg-opacity-20 backdrop-blur-lg z-10 ${overlayAnimation}`}>
+  </div>
+
+  <!-- Fixed Position Text on the Left -->
+  <div class="fixed left-0 top-1/3 z-20 px-4">
+    <h1 class="text-7xl md:text-8xl font-bold text-neutral-200 opacity-0 leading-none line-1">
+      Technical.
+    </h1>
+    <h1 class="text-7xl md:text-8xl font-bold text-neutral-200 opacity-0 leading-none line-2">
+      Creative.
+    </h1>
+    <h1 class="text-7xl md:text-8xl font-bold text-neutral-200 opacity-0 leading-none line-3">
+      Compelling.
+    </h1>
   </div>
 
   <!-- Content in the hero section -->
@@ -42,6 +55,8 @@
 
   .hero {
     animation: backgroundMoveUp 5s ease-in-out infinite alternate; /* Infinite animation */
+    background-attachment: fixed; /* Keeps the background image fixed */
+    background-size: cover; /* Ensures background image covers the area without resizing */
   }
 
   /* Glassmorphism Overlay Animations */
@@ -73,5 +88,32 @@
 
   .slideOut {
     animation: slideOut 2.5s ease-out forwards;
+  }
+
+  /* Line-by-line Animation */
+  @keyframes slideInLine {
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the left */
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0); /* Move to the natural position */
+      opacity: 1;
+    }
+  }
+
+  .line-1 {
+    animation: slideInLine 1s ease-out forwards;
+    animation-delay: 0s; /* Start immediately */
+  }
+
+  .line-2 {
+    animation: slideInLine 1s ease-out forwards;
+    animation-delay: 0.5s; /* Start after line 1 */
+  }
+
+  .line-3 {
+    animation: slideInLine 1s ease-out forwards;
+    animation-delay: 1s; /* Start after line 2 */
   }
 </style>

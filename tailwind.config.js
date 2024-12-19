@@ -11,7 +11,7 @@ export default {
     require('daisyui'), // Include DaisyUI if you're using it
   ],
   daisyui: {
-    themes: ['dracula', 'acid'], // Configure themes
+    themes: ['dracula', 'lemonade'], // Configure themes
     // Set the default theme to 'dracula'
     theme: 'dracula',
   },

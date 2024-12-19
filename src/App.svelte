@@ -1,9 +1,9 @@
 <script>
   import Navigation from './lib/components/navigation.svelte';
-  import Hero from './lib/pages/hero.svelte';
+  import Home from './lib/pages/home.svelte';
 </script>
 
 <main>
   <Navigation />
-  <Hero />
+  <Home />
 </main>
