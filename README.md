@@ -5,7 +5,7 @@ Frontend:
     Svelte
     Tailwind | DaisyUI
     Vite
-
+    Surge
 
 # Svelte + Vite
 
