@@ -1,6 +1,7 @@
 <script>
     import Hero from "../components/hero.svelte";
     import About from "../components/about.svelte";
+    import Services from "../components/services.svelte";
 
     // Define toggleOverlay function
     function toggleOverlay() {
@@ -10,3 +11,4 @@
 
 <Hero {toggleOverlay} />
 <About />
+<Services />
