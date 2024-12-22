@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import { Link } from "svelte-routing"; // Import the Link component from svelte-routing
   import ThemeController from "./theme_controller.svelte";
 
   let overlayToggle = false; // Default state for overlay animation
@@ -31,15 +32,15 @@
 <div class="navbar fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out" class:is-scrolled={isScrolled}>
   <!-- Left: Logo or Brand Name -->
   <div class="flex-1">
-    <a href="/" class="btn btn-ghost normal-case text-xl navbar-text">Max Aronheim</a>
+    <Link to="/" class="btn btn-ghost normal-case text-xl navbar-text">Max Aronheim</Link> <!-- Changed from <a> to <Link> -->
   </div>
 
   <!-- Right: Navigation Links -->
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="/skills" class="navbar-text">Skills</a></li>
-      <li><a href="/experiences" class="navbar-text">Experiences</a></li> <!-- Updated to page link -->
-      <li><a href="/portfolio" class="navbar-text">Portfolio</a></li>
+      <li><Link to="/skills" class="navbar-text">Skills</Link></li> <!-- Changed from <a> to <Link> -->
+      <li><Link to="/experiences" class="navbar-text">Experiences</Link></li> <!-- Changed from <a> to <Link> -->
+      <li><Link to="/portfolio" class="navbar-text">Portfolio</Link></li> <!-- Changed from <a> to <Link> -->
     </ul>
 
     <!-- Theme Switcher (Imported from Theme.svelte) -->
