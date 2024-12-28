@@ -5,6 +5,7 @@
   import Skills from './lib/pages/skills.svelte'; // Your skills page component
   import Experiences from './lib/pages/experiences.svelte'; // Your experiences page component
   import Portfolio from './lib/pages/portfolio.svelte'; // Your portfolio page component
+  import Footer from './lib/components/footer.svelte'; // Your footer component
 </script>
 
 <Router>
@@ -15,4 +16,6 @@
   <Route path="/skills" component={Skills} />
   <Route path="/experiences" component={Experiences} />
   <Route path="/portfolio" component={Portfolio} />
+
+  <Footer />
 </Router>

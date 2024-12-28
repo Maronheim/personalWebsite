@@ -1,3 +1,9 @@
+<script>
+  import ExperiencesHero from "../components/hero_sections/experiences_hero.svelte";
+</script>
+
+<ExperiencesHero />
+
 <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
     <li>
       <div class="timeline-middle">

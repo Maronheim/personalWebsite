@@ -16,7 +16,7 @@
     <!-- Background container -->
     <div
       class="background-container absolute top-0 left-0 w-full h-full"
-      style="background-image: url('/images/hero.JPG');"
+      style="background-image: url('/images/skills.JPG');"
     ></div>
 
     <!-- Glassmorphism Overlay -->
@@ -25,23 +25,33 @@
     ></div>
 
     <!-- Content in the hero section -->
-    <div class="hero-content absolute left-0 top-1/3 z-20">
-      <div class="max-w-md">
+    <div
+      class="hero-content absolute left-0 z-20 text-left transform translate-y-1/4"
+      style="bottom: 20%;"
+    >
+      <div class="max-w-md pl-8">
         <h1
-          class="text-7xl md:text-8 font-bold text-neutral-200 opacity-0 leading-none line-1"
+          class="text-5xl md:text-5xl font-bold text-neutral-200 opacity-0 leading-none line-1"
         >
-          Technical.
+          Max Aronheim
         </h1>
+        <h1 class="text-3xl opacity-0 line-2">______________</h1>
         <h1
-          class="text-7xl md:text-8 font-bold text-neutral-200 opacity-0 leading-none line-2"
+          class="text-3xl md:text-7xl font-bold text-neutral-200 opacity-0 leading-none line-3"
         >
-          Creative.
+          Skillsets
         </h1>
-        <h1
-          class="text-7xl md:text-8 font-bold text-neutral-200 opacity-0 leading-none line-3"
+        <button
+          class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-primary opacity-0 line-4 mt-8"
         >
-          Compelling.
-        </h1>
+          <a
+            href="/Max Aronheim Spring 2024 Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Resume
+          </a>
+        </button>
       </div>
     </div>
   </div>
@@ -62,24 +72,20 @@
     position: relative;
   }
 
-  /* Background Animation */
-  @keyframes backgroundMoveUp {
-    0% {
-      transform: scale(1); /* Starting scale */
-      background-position: center;
-    }
-    100% {
-      transform: scale(1.1); /* Zoom effect */
-      background-position: center top; /* Move the image upwards */
-    }
-  }
-
   .background-container {
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-    animation: backgroundMoveUp 5s ease-in-out infinite alternate;
+  }
+
+  /* Hero Content */
+  .hero-content {
+    position: absolute; /* Keeps it relative to the hero section */
+    left: 0;
+    bottom: 33%; /* Positioned in the lower third */
+    text-align: left; /* Aligns text to the left */
+    z-index: 20;
   }
 
   /* Glassmorphism Overlay Animations */
@@ -113,14 +119,6 @@
     animation: slideOut 2.5s ease-out forwards;
   }
 
-  /* Hero Content */
-  .hero-content {
-    position: absolute; /* Keeps it relative to the hero section */
-    left: 2%;
-    top: 33%; /* Adjust as necessary */
-    z-index: 20;
-  }
-
   /* Line-by-line Animation */
   @keyframes slideInLine {
     0% {
@@ -136,8 +134,8 @@
   .line-1 {
     animation: slideInLine 1s ease-out forwards;
     animation-delay: 0s; /* Start immediately */
-    line-height: 1.25; /* Space above and below this line */
-    margin-bottom: 0.25em; /* Add extra space below this line */
+    line-height: 1.25;
+    margin-bottom: 0.25em;
     margin-top: -1em;
   }
 
@@ -152,5 +150,10 @@
     animation: slideInLine 1s ease-out forwards;
     animation-delay: 1s; /* Start after line 2 */
     line-height: 1.25;
+  }
+
+  .line-4 {
+    animation: slideInLine 1s ease-out forwards;
+    animation-delay: 1.5s; /* Start after line 3 */
   }
 </style>

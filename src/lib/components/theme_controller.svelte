@@ -28,7 +28,7 @@
   <input
     type="checkbox"
     class="hidden"
-    checked={currentTheme === "coffee"}
+    checked={currentTheme === "dracula"}
     on:change={toggleTheme}
   />
 
