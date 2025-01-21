@@ -24,25 +24,3 @@
         {@html skills[activeIndex]?.content}
     </div>
 </div>
-
-<style>
-
-    .skills-list ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        font-size: 1.25rem; /* Larger font size */
-        line-height: 1.75;  /* More spacing between lines */
-    }
-
-    .skills-list li {
-        padding: 0.5rem 0;
-    }
-
-    @media (min-width: 768px) {
-        /* This is the breakpoint for tablet to desktop */
-        .skills-list {
-            grid-template-columns: repeat(3, 1fr); /* 3 items per row on desktop */
-        }
-    }
-</style>
