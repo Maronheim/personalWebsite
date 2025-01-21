@@ -24,26 +24,26 @@
       class={`glass-overlay absolute top-0 left-0 w-full h-full bg-white bg-opacity-20 backdrop-blur-lg z-10 ${overlayAnimation}`}
     ></div>
 
-  <!-- Content in the hero section -->
-  <div class="hero-content absolute left-0 z-20 text-left transform translate-y-1/4" style="bottom: 20%;">
-    <div class="max-w-md pl-8">
-      <h1 class="text-5xl md:text-5xl font-bold text-neutral-200 opacity-0 leading-none line-1">
-        Max Aronheim
-      </h1>
-      <h1 class="text-3xl opacity-0 line-2">______________</h1>
-      <h1 class="text-3xl md:text-7xl font-bold text-neutral-200 opacity-0 leading-none line-3">
-        Experiences
-      </h1>
-      <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-primary opacity-0 line-4 mt-8">
-        <a
-          href="/Max Aronheim Spring 2024 Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer">
-          View Resume
-        </a>
-      </button>
+    <!-- Content in the hero section -->
+    <div class="hero-content absolute left-0 top-1/3 z-20">
+      <div class="max-w-md">
+        <h1
+          class="text-7xl md:text-8 font-bold text-neutral-200 opacity-0 leading-none line-1"
+        >
+          Technical.
+        </h1>
+        <h1
+          class="text-7xl md:text-8 font-bold text-neutral-200 opacity-0 leading-none line-2"
+        >
+          Creative.
+        </h1>
+        <h1
+          class="text-7xl md:text-8 font-bold text-neutral-200 opacity-0 leading-none line-3"
+        >
+          Compelling.
+        </h1>
+      </div>
     </div>
-  </div>
   </div>
 </div>
 

@@ -35,9 +35,6 @@
         At the age of 17, he worked at Northwestern Mutual, becoming one of the youngest to be hired at this Fortune 100 firm. <br /><br />
         At the age of 18, he became one of the youngest to work at SunLife Financial, serving their actuarial department. <br /><br />
       </p>
-      <p class="text-white text-lg leading-relaxed">
-        Come view his background as he continues to be a trailblazer!
-      </p>
       
       <button
         class="btn btn-primary mt-8 w-64 text-left text-lg text-white"
