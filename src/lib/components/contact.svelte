@@ -1,35 +1,44 @@
 <script>
-    let imageUrl = "../../images/contact.jpeg";
+  let imageUrl = "../../images/contact.jpeg";
 </script>
 
-<div class="flex justify-center items-center min-h-screen px-4 md:px-8 bg-base-200">
+<div class="flex justify-center items-center min-h-screen px-4 bg-base-200">
   <div class="max-w-6xl w-full flex flex-col md:flex-row gap-12">
-    <!-- Right Section (Text) -->
+    <!-- Left Section (Contact Info) -->
     <div class="flex-grow w-full md:w-1/2 flex flex-col justify-center">
-        <h1 class="text-4xl md:text-5xl font-extrabold mb-6 text-primary">Contact Me</h1>
-      <h3 class="text-2xl font-extrabold mb-6 text-accent">
-        Looking for Results-Driven Expertise?
-      </h3>
-      <p class="text-lg leading-relaxed mb-4">
-        I specialize in delivering high-impact solutions that drive results. With experience in diverse fields such as finance, technology, and business analysis, I’m equipped to help your team excel.
-      </p>
-      <p class="text-lg leading-relaxed">
-        If you need someone who can analyze problems, craft strategic solutions, and develop the technical products to make them happen, I’m the professional you’ve been looking for.
-      </p>
-      <br />
-      <p class="text-lg leading-relaxed">
-        Together, we can move your business or project toward success. Let’s talk today!
-      </p>
-      
-      <button
-        class="btn btn-primary mt-8 w-64 text-left text-lg text-white"
-        on:click={() => window.open('https://github.com/Maronheim/personalWebsite.git', '_blank')}
-      >
-        Contact Me
-      </button>
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-6 text-primary text-center">Contact Me</h1>
+      <h3 class="text-accent text-center bold text-xl">Looking for Results-Driven Expertise?</h3>
+      <div class="p-10 bg-base-200">
+        <!-- Contact Section -->
+        <div class="space-y-6"> <!-- Use space-y-6 to add spacing between the sections -->
+          <!-- Email Box -->
+          <div class="bg-glass p-6 rounded-lg shadow-lg text-center">
+            <h2 class="text-2xl text-secondary font-bold mb-2">Email</h2>
+            <a href="mailto:maxaronheim@gmail.com" class="underline">
+              maxaronheim@gmail.com
+            </a>
+          </div>
+
+          <!-- Phone Box -->
+          <div class="bg-glass p-6 rounded-lg shadow-lg text-center">
+            <h2 class="text-2xl text-secondary font-bold mb-2">Phone</h2>
+            <a href="tel:+34687099322" class="underline">
+              +34 687-099-322
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        /* Optional custom styles for glass effect */
+        .bg-glass {
+          backdrop-filter: blur(10px);
+          background: rgba(255, 255, 255, 0.1);
+        }
+      </style>
     </div>
 
-    <!-- Left Section (Image) -->
+    <!-- Right Section (Image) -->
     <div class="flex-shrink-0 w-full md:w-1/2">
       <img
         src={imageUrl}

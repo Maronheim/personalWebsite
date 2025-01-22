@@ -2,7 +2,6 @@
   import { onMount } from "svelte";
 
   let overlayAnimation = "in"; // default to "in"
-
   export let toggleOverlay;
 
   $: {
@@ -25,70 +24,45 @@
     ></div>
 
     <!-- Content in the hero section -->
-    <div
-      class="hero-content absolute left-0 z-20 text-left transform translate-y-1/4"
-      style="bottom: 20%;"
-    >
-      <div class="max-w-md pl-8">
-        <h1
-          class="text-5xl md:text-5xl font-bold text-neutral-200 opacity-0 leading-none line-1"
-        >
-          Max Aronheim
-        </h1>
-        <h1 class="text-3xl opacity-0 line-2 text-white">______________</h1>
-        <h1
-          class="text-3xl md:text-7xl font-bold text-neutral-200 opacity-0 leading-none line-3"
-        >
-          Skillsets
-        </h1>
-        <button
-          class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-primary opacity-0 line-4 mt-8 text-white"
-        >
-          <a
-            href="/Max Aronheim Spring 2024 Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    <div class="hero-content absolute left-0 z-20 text-left transform translate-y-1/4" style="bottom: 20%;">
+      
+      <!-- Glass Card -->
+      <div class="max-w-md p-8 glass-card shadow-lg animate-slideInFromLeft rounded-lg">
+        <h1 class="text-5xl font-bold text-white">Max Aronheim</h1>
+        <h2 class="text-3xl text-white my-2">______________</h2>
+        <h1 class="text-5xl font-bold text-white">Skillsets</h1>
+        <button class="btn btn-primary btn-lg mt-6">
+          <a href="/Max Aronheim Spring 2024 Resume.pdf" target="_blank" class="text-white" rel="noopener noreferrer">
             View Resume
           </a>
         </button>
       </div>
+
     </div>
   </div>
 </div>
 
 <style>
-  /* Ensure the hero container has a locked size */
+  /* Hero Container */
   .hero-container {
     position: relative;
     width: 100%;
-    height: 100vh; /* Locks the hero section to viewport height */
-    overflow: hidden; /* Prevents content from expanding outside the frame */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
   }
 
-  .hero {
-    width: 100%;
-    height: 100%; /* Full height of the container */
-    position: relative;
-  }
-
+  /* Background */
   .background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
   }
 
-  /* Hero Content */
-  .hero-content {
-    position: absolute; /* Keeps it relative to the hero section */
-    left: 0;
-    bottom: 33%; /* Positioned in the lower third */
-    text-align: left; /* Aligns text to the left */
-    z-index: 20;
-  }
-
-  /* Glassmorphism Overlay Animations */
+  /* Glass Overlay Animations */
   @keyframes slideIn {
     0% {
       width: 0%;
@@ -119,41 +93,39 @@
     animation: slideOut 2.5s ease-out forwards;
   }
 
-  /* Line-by-line Animation */
-  @keyframes slideInLine {
+  /* Hero Content */
+  .hero-content {
+    position: absolute;
+    left: 2%; /* Adjust left position */
+    top: 33%; /* Adjust to place it in the lower third */
+    z-index: 20;
+  }
+
+  /* Glass Card Animation */
+  @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-100%); /* Start off-screen to the left */
+      transform: translateX(-100%);
       opacity: 0;
     }
     100% {
-      transform: translateX(0); /* Move to the natural position */
+      transform: translateX(0);
       opacity: 1;
     }
   }
 
-  .line-1 {
-    animation: slideInLine 1s ease-out forwards;
-    animation-delay: 0s; /* Start immediately */
-    line-height: 1.25;
-    margin-bottom: 0.25em;
-    margin-top: -1em;
+  .animate-slideInFromLeft {
+    animation: slideInFromLeft 1.5s ease-out forwards;
   }
 
-  .line-2 {
-    animation: slideInLine 1s ease-out forwards;
-    animation-delay: 0.5s; /* Start after line 1 */
-    line-height: 1.25;
-    margin-bottom: 0.25em;
+  .glass-card {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.4); /* Glassmorphism effect */
+    padding: 2rem; /* Adds padding to the card */
+    border-radius: 12px; /* Keeps the rounded corners */
   }
 
-  .line-3 {
-    animation: slideInLine 1s ease-out forwards;
-    animation-delay: 1s; /* Start after line 2 */
-    line-height: 1.25;
-  }
-
-  .line-4 {
-    animation: slideInLine 1s ease-out forwards;
-    animation-delay: 1.5s; /* Start after line 3 */
+  /* Text Styling for Hero */
+  h1, h2, .btn a {
+    color: #ffffff !important; /* Ensures text remains pure white */
   }
 </style>
