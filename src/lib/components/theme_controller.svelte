@@ -2,19 +2,19 @@
   import { createEventDispatcher, onMount } from "svelte";
 
   // Set initial theme based on localStorage or default to "dracula"
-  let currentTheme = localStorage.getItem("theme") || "coffee";
+  let currentTheme = localStorage.getItem("theme") || "lemonade";
 
   // Create a dispatcher to communicate with the parent component
   const dispatch = createEventDispatcher();
 
   // Toggle theme between "dracula" and "coffee"
   const toggleTheme = () => {
-    currentTheme = currentTheme === "dracula" ? "coffee" : "dracula";
+    currentTheme = currentTheme === "dracula" ? "lemonade" : "dracula";
     document.documentElement.setAttribute("data-theme", currentTheme);
     localStorage.setItem("theme", currentTheme);
 
     // Dispatch the overlayToggle event to notify the parent about the theme change
-    dispatch("overlayToggle", currentTheme === "coffee");
+    dispatch("overlayToggle", currentTheme === "lemonade");
   };
 
   // Ensure the theme is applied when the component is mounted

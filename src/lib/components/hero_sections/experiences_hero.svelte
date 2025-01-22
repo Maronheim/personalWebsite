@@ -31,11 +31,11 @@
       <h1 class="text-5xl md:text-5xl font-bold text-neutral-200 opacity-0 leading-none line-1">
         Max Aronheim
       </h1>
-      <h1 class="text-3xl opacity-0 line-2">______________</h1>
+      <h1 class="text-3xl opacity-0 line-2 text-white">______________</h1>
       <h1 class="text-5xl md:text-6xl font-bold text-neutral-200 opacity-0 leading-none line-3">
         Work History
       </h1>
-      <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-primary opacity-0 line-4 mt-8">
+      <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-primary opacity-0 line-4 mt-8 text-white">
         <a
           href="/Max Aronheim Spring 2024 Resume.pdf"
           target="_blank"

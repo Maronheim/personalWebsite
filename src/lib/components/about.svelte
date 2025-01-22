@@ -21,16 +21,16 @@
       <h1 class="text-4xl md:text-5xl font-extrabold mb-6 text-primary">
         Him: Max Aronheim
       </h1>
-      <p class="text-white text-lg leading-relaxed mb-4">
+      <p class="text-lg leading-relaxed mb-4">
         An Artist, An Analyst, A Developer.
       </p>
-      <p class="text-white text-lg leading-relaxed">
+      <p class="text-lg leading-relaxed">
         With his background in business, studies in technology, and hobbies
         within the arts, Max Aronheim has been able to utilize business
         analytics to drive leading projects forward.
       </p>
       <br />
-      <p class="text-white text-lg leading-relaxed pl-8">
+      <p class="text-lg leading-relaxed pl-8">
         At the age of 16, Max became the youngest to be hired at Ocean Prime a fine dining restaurant. <br /><br />
         At the age of 17, he worked at Northwestern Mutual, becoming one of the youngest to be hired at this Fortune 100 firm. <br /><br />
         At the age of 18, he became one of the youngest to work at SunLife Financial, serving their actuarial department. <br /><br />

@@ -4,12 +4,12 @@
     const personalityLink = "https://www.16personalities.com/enfj-personality"; // Personality link
 </script>
 
-<div class="bg-base-200">
-    <h1 class="text-4xl font-bold text-center mt-10 mb-6">
+<div class="bg-base-00 pt-10 pb-10">
+    <h1 class="text-4xl font-bold text-center mb-6">
         Personality Insights
     </h1>
 
-    <div class="flex justify-between items-center w-full mt-10 mb-10">
+    <div class="flex justify-between items-center w-full mt-10">
         <!-- Left Image with Button and Link (PI Icon) -->
         <div class="w-1/4 overflow-hidden ml-64 text-center">
             <a href={reportLink} target="_blank">
@@ -20,7 +20,7 @@
                 />
             </a>
             <div class="mt-4">
-                <a href={reportLink} target="_blank" class="btn btn-primary">
+                <a href={reportLink} target="_blank" class="btn btn-primary text-white">
                     View Personality Report
                 </a>
             </div>
@@ -39,7 +39,7 @@
                 <a
                     href={personalityLink}
                     target="_blank"
-                    class="btn btn-primary"
+                    class="btn btn-primary text-white"
                 >
                     View Personality Report
                 </a>
