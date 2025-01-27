@@ -40,7 +40,7 @@
         class="btn btn-primary mt-8 w-64 text-left text-lg text-white"
         on:click={() => window.open('https://github.com/Maronheim/personalWebsite.git', '_blank')}
       >
-        View the Web Code
+        View the Website's Code
       </button>
     </div>
   </div> <!-- Closing the second-level div -->

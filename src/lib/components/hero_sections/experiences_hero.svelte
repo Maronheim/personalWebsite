@@ -15,7 +15,7 @@
     <!-- Background container -->
     <div
       class="background-container absolute top-0 left-0 w-full h-full"
-      style="background-image: url('/images/experiences2.JPG');"
+      style="background-image: url('/images/Experiences2.jpg');"
     ></div>
 
     <!-- Glassmorphism Overlay -->
