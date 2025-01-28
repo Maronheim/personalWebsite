@@ -32,7 +32,7 @@
         <h2 class="text-3xl text-white my-2">______________</h2>
         <h1 class="text-5xl font-bold text-white">Skillsets</h1>
         <button class="btn btn-primary btn-lg mt-6">
-          <a href="/Max Aronheim Spring 2024 Resume.pdf" target="_blank" class="text-white" rel="noopener noreferrer">
+          <a href="/max_aronheim_general_resume_2025.pdf" target="_blank" class="text-white" rel="noopener noreferrer">
             View Resume
           </a>
         </button>

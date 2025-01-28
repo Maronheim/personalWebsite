@@ -3,45 +3,52 @@
 export const artPieces = [
     {
       id: 1,
-      title: "Emulsion",
-      image: "/art_portfolio/emulsion.jpg",
-      description: "A visual exploration of blending mediums to create dynamic contrasts.",
-      fullText: "This piece represents the beauty of imperfection, where mediums clash and merge into something unexpectedly harmonious. 'Emulsion' speaks to the unity found in diversity, drawing parallels to life's unpredictable intersections."
+      title: "Spirit of Spades",
+      image: "/art_portfolio/spirit_of_spades.jpg",
+      description: "A tribute to Black Heritage, this piece features a stoic figure adorned in purple, with vibrant accents against a bright orange backdrop. The artwork symbolizes the wisdom and strength passed through generations of the Black community, marking my first digital creation",
+      fullText: "Spirit of Spades is a tribute to Black Heritage Month and the powerful legacy of the Black community. The piece features a stoic figure dressed in a purple shirt adorned with my signature block style, set against a bright orange background. This man, portrayed with gray tones on his skin, embodies the wisdom, resilience, and strength that has been passed down through generations of Black people. I wanted him to evoke the presence of a Greek philosopher, symbolizing not just intellect, but also the quiet strength that often goes unnoticed. This was the first digital art piece I ever created, and it was born out of a simple yet life-changing encounter. After a successful first semester in college, I purchased an iPad and Apple Pencil, eager to explore new creative possibilities. One day, in a local coffee shop, I saw a girl with a sketchbook open on the table. Her art intrigued me, and after talking to her, I was inspired to start experimenting with digital drawing. She shared a piece she’d made, a line art rendition of a Black man, which led me to create my own version — Spirit of Spades. This was my entry into the world of digital art, and it represents my journey toward finding a voice through creativity."
     },
     {
       id: 2,
-      title: "Founder's Foreigner",
-      image: "/art_portfolio/founder's_foreigner.jpg",
-      description: "A thought-provoking representation of belonging and identity in new spaces.",
-      fullText: "Inspired by the concept of being a 'foreigner' in a founding land, this artwork explores themes of cultural assimilation, identity preservation, and the beauty of hybrid experiences through vivid strokes and sharp contrasts."
+      title: "Shadow Sprites",
+      image: "/art_portfolio/shadow_monsters_.jpg",
+      description: "Exploring femininity and subtlety, this piece portrays a woman whose silhouette is intertwined with aurora-like colors and shadows, symbolizing the quiet power women have historically used. The artwork reflects the growing strength and influence of women navigating a complex world",
+      fullText: "'This piece, called Shadow Sprites explores the dynamic interplay of light, shadow, and negative space. It depicts a girl standing in front of a wall with a large tree overhead, its branches adorned with pinkish-orange flowers. Light filters through the branches, casting intricate shadows across the scene, creating a sense of movement and depth. The girl herself is painted in cool blue tones reminiscent of the aurora borealis, but much of her form is left intentionally incomplete. Her dress is defined by delicate pink and lavender outlines that trace the shadows and contours of its shape, while her hair is richly filled with purples and blues, contrasting against her partially filled face, which incorporates the silhouette of a crescent moon. Behind her, a luminous blue circle—representing either a moon or a sun—adds a striking focal point to the composition. I love how the minimal use of filling and reliance on negative space create a bold yet subtle contrast, emphasizing the themes of nuance and restraint. This piece is an homage to femininity as an archetype-powerful, precise, and quietly assertive. It reflects how, throughout history, women have often navigated societal constraints through subtlety and finesse, finding ways to leave their mark and effect change without necessarily commanding attention. The interplay of light and shadow symbolizes that balance: a celebration of the understated strength and elegance that defines so much of the feminine experience. The luminous scene captures the transformative power of changing times, symbolizing the rise of equality and the growing momentum toward a society where women can thrive without needing to operate within the shadows of cultural expectations"
     },
     {
       id: 3,
-      title: "Pride's Prayer",
-      image: "/art_portfolio/pride's_prayer_.jpg",
-      description: "An ode to inner strength and the courage to stand tall despite challenges.",
-      fullText: "'Pride's Prayer' reflects on the quiet resilience required to maintain dignity and hope in the face of adversity. The artwork's verticality symbolizes growth, while the subtle tones capture the fragility of human emotion."
+      title: "Reverberations",
+      image: "/art_portfolio/reverberations_.jpg",
+      description: "Honoring Asian American & Pacific Islander Heritage, this spring-inspired piece features a green-haired figure surrounded by a galaxy-like background and symbolic elements of legacy and renewal. It embodies the themes of new beginnings and the powerful connections across generations",
+      fullText: "'Reverberations celebrates Asian American & Pacific Islander Heritage Month with a spring-themed design that mirrors the renewal and growth that spring often symbolizes. The vibrant green tones of the girl in the portrait are complemented by a galaxy-inspired background and a flower-patterned couch that serves as the central focal point of the piece. The reflective table and the tombstone with the inscription To the old paving the new reinforce the theme of legacy, highlighting the importance of passing knowledge from one generation to the next. This piece holds personal significance, as the girl depicted is a close friend, and the silhouettes in the artwork come from a photo I took of her. Reverberations was my first step toward developing the core theme of my portfolio: using art to honor different cultural heritage months and highlight the unique stories and perspectives of various communities. The incorporation of spring into the piece draws from the sense of new beginnings and fresh growth that aligns with the spirit of Asian American & Pacific Islander Heritage Month, which occurs during the emergence of spring."
     },
     {
       id: 4,
-      title: "Reverberations",
-      image: "/art_portfolio/reverberations_.jpg",
-      description: "An abstract portrayal of sound waves and their emotional impact.",
-      fullText: "'Reverberations' takes the viewer into a world of sonic imagination, where every ripple and wave carries a story. The layered composition mirrors the complexity of auditory memories and how they shape our experiences."
+      title: "Pride's Prayer",
+      image: "/art_portfolio/pride's_prayer_.jpg",
+      description: "A celebration of LGBTQ+ unity, this artwork uses a seamless rainbow gradient of stickers and posters to represent the strength and beauty found in diversity. The piece reflects the community's interconnectedness, built from individual experiences that form a vibrant collective whole.",
+      fullText: "'Pride's Prayer represents the vibrancy, unity, and beauty of the LGBTQ+ community. This piece portrays an acquaintance of mine in front of a restroom door covered in stickers and posters, with each sticker representing a unique individual or perspective. By using my block art style, I created a seamless rainbow gradient that transcends the individuality of each piece. This is a visual metaphor for the LGBTQ+ community: made up of diverse individuals, yet unified by the shared experience of being part of something greater. Rather than focusing on any one sticker, the rainbow gradient created by the combination of many smaller pieces reflects the interconnectedness of people from all walks of life. Each of these shapes and colors represents a different part of the LGBTQ+ community, and while they are individual, together they form a whole that is vibrant and beautiful. This piece wasn’t just about creating art, it was about acknowledging the power in unity and the beauty that emerges when we come together as a diverse collective."
     },
     {
       id: 5,
-      title: "Shadow Monsters",
-      image: "/art_portfolio/shadow_monsters_.jpg",
-      description: "A playful yet introspective dive into childhood fears.",
-      fullText: "'Shadow Monsters' juxtaposes innocence and fear through whimsical imagery. This piece delves into how our perceptions of danger evolve, often revealing the harmless origins of our deepest anxieties."
+      title: "Founder's Foreigner",
+      image: "/art_portfolio/founder's_foreigner.jpg",
+      description: "This intricate depiction of the Louvre with a French heritage theme highlights the artist’s shift toward original, detailed work. The use of red, white, and blue symbolizes the balance between individuality and collective identity within French culture.",
+      fullText: "Founder's Foreigner marks a significant shift in my artistic direction. This piece, which took 45 hours to complete, features my best friend in front of the Louvre. The intricate details of the castle and the sky were some of the first moments when I truly started taking control of my artistic process. Up until then, I had been recreating images, but here I reimagined the silhouettes and shapes, crafting something entirely my own. The use of beige tones for the background, contrasted with the French flag's colors for the subject, creates a sense of harmony between the individual and the collective. The red skin of the subject and the surrounding tourists, dressed in variations of red, blue, and white, represent the unifying power of French heritage. This piece captures the essence of French culture: a delicate balance between timeless elegance and bold, passionate expression."
     },
     {
       id: 6,
-      title: "Spirit of Spades",
-      image: "/art_portfolio/spirit_of_spades.jpg",
-      description: "A card-inspired artwork that symbolizes strategy and intuition.",
-      fullText: "Drawing inspiration from the spade symbol in card decks, 'Spirit of Spades' explores the balance between logic and gut instinct. The intricate details represent the complexity of decision-making and its consequences."
+      title: "Feastus",
+      image: "/art_portfolio/founders_feastus.png",
+      description: "Feastus combines Day of the Dead imagery with vibrant colors, celebrating Hispanic traditions while embracing life and death. The piece captures the rich cultural rituals with bold shadows and sharp contrasts, making it a tribute to Hispanic heritage.",
+      fullText: "Feastus is a celebration of Hispanic Heritage Month and draws heavily from the vibrant themes of Día de los Muertos. The piece combines the iconic imagery of skulls and vivid, electrifying colors with a landscape that feels steeped in necromancy yet exudes a joyous, almost spiritual tone. The sharp contrasts and interplay of shadows create an energy that feels simultaneously reverent and alive, mirroring the duality of the holiday—a remembrance of those who have passed and a celebration of their enduring presence. This piece captures the essence of Hispanic rituals and traditions, with an eye toward the rich, bold palette that defines so much of the culture. It’s one of my favorites, not only because of the composition’s vibrancy but also because of its ability to honor tradition while embracing a modern visual style. While simple in its adherence to theme, it leaves space for viewers to reflect on the beauty of celebrating life, even in death."
+    },
+    {
+      id: 7,
+      title: "Emulsion",
+      image: "/art_portfolio/emulsion.jpg",
+      description: "Emulsion is a self-portrait reflecting my mixed Vietnamese and Jewish heritage, represented through distinct color layers. It sparks a conversation about the growing demographic of mixed children and how cultures are blending together for future generations.",
+      fullText: "Emulsion is a deeply personal self-portrait that speaks to my mixed heritage as someone with Vietnamese and Jewish ancestry. The name reflects the essence of the piece—a blending of distinct cultures that don’t naturally or intuitively mix, much like an emulsion in chemistry. Growing up, my parents worked hard to create a balanced experience, ensuring I was exposed to the richness of both cultures. This upbringing inspired the meticulous process behind the piece: each color—red for my bodysuit, yellow for my skin, blue for my hair—was placed on its own separate layer. The sharply defined boundaries between the colors intentionally reflect the challenges and complexities of navigating a mixed identity while emphasizing the beauty of this diversity. What makes this piece even more important is its relevance today. Mixed children are one of the fastest-growing demographics globally, yet discussions about this group often remain overlooked. Emulsion is a call to action, sparking a conversation about how this demographic represents a bridge between cultures, paving the way for a future where differences mesh seamlessly into something entirely new. For me, this piece is not just a reflection of my identity but also of what I believe to be the future—a world where barriers fade, and differences unite rather than divide."
     }
   ];
   

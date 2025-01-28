@@ -138,7 +138,7 @@
         <div class="relative h-96 mb-4">
           <iframe
             class="absolute inset-0 w-full h-full"
-            src="https://www.youtube.com/embed/9kQ9RKOF9io"
+            src="https://www.youtube.com/embed/9kQ9RKOF9io?start=2"
             frameborder="0"
             allow="autoplay; encrypted-media"
             allowfullscreen
@@ -147,6 +147,13 @@
 
         <!-- PowerPoint Download Section -->
         <div>
+          <p style="margin-top: 16px;">
+            If the video doesn't load, 
+            <a href="https://www.youtube.com/watch?v=9kQ9RKOF9io&t=2s" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: underline;">
+              Click here to watch on YouTube <br>
+            </a>
+          </p>
+          <br>
           <button
             class="bg-primary text-white px-6 py-3 rounded-full focus:outline-none hover:bg-accent"
             on:click={() =>

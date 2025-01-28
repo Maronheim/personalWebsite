@@ -7,12 +7,12 @@
     <!-- Left Section (Contact Info) -->
     <div class="flex-grow w-full md:w-1/2 flex flex-col justify-center">
       <h1 class="text-4xl md:text-5xl font-extrabold mb-6 text-primary text-center">Contact Me</h1>
-      <h3 class="text-accent text-center bold text-xl">Looking for Results-Driven Expertise?</h3>
+      <h3 class="text-center bold text-xl">Looking for Results-Driven Expertise?</h3>
       <div class="p-10">
         <!-- Contact Section -->
         <div class="space-y-6"> <!-- Use space-y-6 to add spacing between the sections -->
           <!-- Email Box -->
-          <div class="bg-glass p-6 rounded-lg shadow-lg text-center border-accent">
+          <div class="bg-glass p-6 rounded-lg shadow-lg text-center bg-white/15">
             <h2 class="text-2xl text-secondary font-bold mb-2">Email</h2>
             <a href="mailto:maxaronheim@gmail.com" class="underline">
               maxaronheim@gmail.com
