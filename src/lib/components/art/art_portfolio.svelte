@@ -113,6 +113,7 @@
           src={activePiece.image}
           alt={activePiece.title}
           class="object-cover w-full rounded-md mb-4"
+          loading="lazy"
         />
       </figure>
       <h2 class="text-3xl font-bold mb-4">{activePiece.title}</h2>

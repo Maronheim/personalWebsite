@@ -17,13 +17,9 @@ export const skills = [
             "Corporate",
             "Financial Forecasting",
             "Risk & Return",
-            "Raising Capital (Including Blended Costs)",
+            "Raising Capital",
             "Project CF Estimation",
             "Capital Budgeting",
-            {
-              name: "NPV, IRR, MIRR, PI, ratios",
-              subskills: []
-            },
             "Capital Structure",
             "Dividend & Repurchases Policies",
             "Mergers, IPO, IB",
