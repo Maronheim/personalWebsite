@@ -21,7 +21,7 @@
 
 <div class="ml-5 p-6 pt-16">
   <h3 class="text-5xl md:text-5xl font-bold text-primary">
-    Art Portfolio: Culture's Ingenium
+    My Art Portfolio: Culture's Ingenium
   </h3>
 </div>
 

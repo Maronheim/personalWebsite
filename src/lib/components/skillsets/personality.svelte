@@ -1,6 +1,6 @@
 <script>
     // Define the links to the PDF report and the external personality link
-    const reportLink = "/public/max_aronheim_pi_result.pdf"; // Behavioral report PDF link
+    const reportLink = "/max_aronheim_pi_result.pdf"; // Behavioral report PDF link
     const personalityLink = "https://www.16personalities.com/enfj-personality"; // Personality link
 </script>
 
