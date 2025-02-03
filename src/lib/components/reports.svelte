@@ -170,7 +170,7 @@
 
 <!-- Card 4 -->
 <a
-  href="/public/LFG%20Case%20Study--Omni%20Hotel.pptx"
+  href="/LFG%20Case%20Study--Omni%20Hotel.pptx"
   download
   class="card bg-base-100 shadow-xl hover:bg-base-200 border-2 border-accent"
 >
